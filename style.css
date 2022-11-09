@@ -39,7 +39,7 @@ header{
     justify-content: space-around;
 }
 body{
-    background: url(background2.png) right/47% 2069px  no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),url(background.png) left/53% 2069px no-repeat;
+    background: url(img/background2.png) right/47% 2069px  no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),url(img/background.png) left/53% 2069px no-repeat;
 }
 .buttons{
     display: flex;
@@ -87,16 +87,28 @@ header a{
 .home{
     color: #FAC422;
 }
+.side{
+    display: flex;
+    align-items: center;
+}
 aside{
     width: 25px;
     height: 1069px;
     padding-left: 20px;
     display:flex;
-    justify-content: left;
+    align-items: center;
+}
+aside ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside li{
+    display: flex;
+    justify-content: space-between;
 }
 aside a{
     display:flex;
-    font-family: Orbitron;
     font-style: normal;
     color: #80858F;
     text-decoration: none;
