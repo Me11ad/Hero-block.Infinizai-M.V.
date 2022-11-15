@@ -39,7 +39,7 @@ header{
     justify-content: space-around;
 }
 body{
-    background: url(img/background2.png) right/47% 2069px  no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),url(img/background.png) left/53% 2069px no-repeat;
+    background: url(img/background2.png) right/46% 2069px  no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),url(img/background.png) left/54% 2069px no-repeat;
 }
 .buttons{
     display: flex;
@@ -90,7 +90,7 @@ header a{
 .photo {
     position: absolute;
     height: 800px;
-    left: 710px;
+    left: 725px;
     right: 500px;
     top: 296px;
 
@@ -153,7 +153,7 @@ header a{
     left: 80px;
     top: 640px;
 }
-.kvadrat {
+.box {
     border: 1px solid #57B8FF;
     color: #57B8FF;
     text-decoration: none;
@@ -165,7 +165,7 @@ header a{
     height: 65px;
 
 }
-.kvadrat a{
+.box a{
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -194,6 +194,6 @@ header a{
 .webflow{
     position: absolute;
     top: 760px;
-    left: 1293px;
+    left: 1315px;
     cursor: pointer;
 }
