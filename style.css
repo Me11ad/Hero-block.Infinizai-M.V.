@@ -90,19 +90,19 @@ header a{
 .photo {
     position: absolute;
     height: 800px;
-    left: 720px;
+    left: 710px;
     right: 500px;
-    top: 275px;
+    top: 296px;
 
     background: url(.png);
     border-radius: 0px;
 }
-.frame {
+.main-text {
     position: absolute;
     height: 56px;
     left: 80px;
     right: 500px;
-    top: 250px;
+    top: 337px;
 
     font-family: 'Orbitron';
     font-style: normal;
@@ -115,7 +115,7 @@ header a{
     font-family: 'Orbitron';
     font-style: normal;
     left: 130px;
-    top: 220px;
+    top: 297px;
 }
 .future a {
     color: #57B8FF;
@@ -123,7 +123,7 @@ header a{
 .fire {
     position: absolute;
     display: inline-block;
-    top: 215px;
+    top: 291px;
     left: 90px;
     
 }
@@ -131,6 +131,7 @@ header a{
     font-weight: 400;
     font-size: 12px;
     line-height: 120px;
+    margin-top:100px;
 }
 .network a{
     text-decoration: none;
@@ -150,7 +151,7 @@ header a{
     color: #999999;
     font-size: 16px;
     left: 80px;
-    top: 520px;
+    top: 640px;
 }
 .kvadrat {
     border: 1px solid #57B8FF;
@@ -158,13 +159,14 @@ header a{
     text-decoration: none;
     left: 60px;
     width: 200px;
-    top: 640px;
+    top: 749px;
     position: absolute;
     background: #57B8FF;
     height: 65px;
 
 }
 .kvadrat a{
+    color: #FFFFFF;
     text-decoration: none;
 }
 .explore {
@@ -177,11 +179,21 @@ header a{
     top: 5px;
 }   
 
-.team {
+.ourteam {
     position: absolute;
     font-family: 'Orbitron';
     font-style: normal;
     font-size: 16px;
     left: 300px;
-    top: 665px;
+    top: 770px;
+}
+.ourteam a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.webflow{
+    position: absolute;
+    top: 760px;
+    left: 1293px;
+    cursor: pointer;
 }
